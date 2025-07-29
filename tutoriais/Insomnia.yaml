@@ -1,0 +1,415 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1740747688230
+  modified: 1740747688230
+  description: ""
+collection:
+  - name: Restaurante
+    meta:
+      id: fld_f1d9a1cfa9794a1eb2ba184c183618c7
+      created: 1740747710762
+      modified: 1741616482478
+      sortKey: -1740747710762
+      description: ""
+    children:
+      - name: clientes
+        meta:
+          id: fld_465a77db8a2a491492029e8f14726d0a
+          created: 1740747767904
+          modified: 1740747767904
+          sortKey: -1740747767904
+          description: ""
+      - name: comidas
+        meta:
+          id: fld_53f5330f0ce448f39a0b5ea776059c3c
+          created: 1740747779231
+          modified: 1742237705033
+          sortKey: -1740747779231
+          description: ""
+  - name: Escola
+    meta:
+      id: fld_84bcf5fdb5af4bc2be95be544bbb5b68
+      created: 1741616489807
+      modified: 1741616489807
+      sortKey: -1741616489807
+      description: ""
+    children:
+      - name: Aluno
+        meta:
+          id: fld_fb0f757d3cea493f9acd12afb6d8494a
+          created: 1741616519606
+          modified: 1741625285294
+          sortKey: -1741616519682
+          description: ""
+      - name: Professor
+        meta:
+          id: fld_e8bc98cf659c4058806d6a20a541af63
+          created: 1741623377484
+          modified: 1741625282383
+          sortKey: -1741616519657
+          description: ""
+      - name: Turma
+        meta:
+          id: fld_87bdcd65beeb4d059063829b0ba93388
+          created: 1741623401211
+          modified: 1741623401211
+          sortKey: -1741616512157
+          description: ""
+      - name: Disciplina
+        meta:
+          id: fld_509457d8ad7d4464869d10bf54ff94cd
+          created: 1741631496731
+          modified: 1741631496731
+          sortKey: -1741616500982
+          description: ""
+      - name: Matricula
+        meta:
+          id: fld_c423dc24c44c45fb8c08cc0c49927554
+          created: 1741633748429
+          modified: 1741633748429
+          sortKey: -1741616495394.5
+          description: ""
+  - name: Pizzaria
+    meta:
+      id: fld_84e0c887b3d54136a3d41052ee9b76e8
+      created: 1742823883717
+      modified: 1742823883717
+      sortKey: -1742823883717
+      description: ""
+    children:
+      - name: Clientes
+        meta:
+          id: fld_2ea3eb894bcd40cea521e5cf541d450c
+          created: 1742823938240
+          modified: 1742823938240
+          sortKey: -1742823938240
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Pizzas
+        meta:
+          id: fld_929ef451f39545d9b6dcac791391765d
+          created: 1742825472347
+          modified: 1742825472347
+          sortKey: -1742823910978.5
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Pedidos
+        meta:
+          id: fld_6d54756707774911b1d63e1e0ff11694
+          created: 1742825945396
+          modified: 1742825945396
+          sortKey: -1742823897347.75
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Itens
+        meta:
+          id: fld_dadf675d4ca94a20aab94981cd7f8eca
+          created: 1742826447975
+          modified: 1742826453118
+          sortKey: -1742823890532.375
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+    scripts:
+      afterResponse: ""
+      preRequest: ""
+  - name: Pizzaria
+    meta:
+      id: fld_b813d483a81d476b9bac997d016e7090
+      created: 1742823883717
+      modified: 1743167543769
+      sortKey: -1742823883717
+      description: ""
+    children:
+      - name: Clientes
+        meta:
+          id: fld_fb1d939e646d48a0ad9772252f28bce3
+          created: 1742823938240
+          modified: 1742823938240
+          sortKey: -1742823938240
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Pizzas
+        meta:
+          id: fld_782c95f11e424ab488f813f7cbcb000a
+          created: 1742825472347
+          modified: 1742825472347
+          sortKey: -1742823910978.5
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Pedidos
+        meta:
+          id: fld_7830b0a07b2a49fd8207a9a2bfb6a135
+          created: 1742825945396
+          modified: 1742825945396
+          sortKey: -1742823897347.75
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+      - name: Itens
+        meta:
+          id: fld_aab7dbed2ec9466bbf3cea67a55e898f
+          created: 1742826447975
+          modified: 1742826453118
+          sortKey: -1742823890532.375
+          description: ""
+        scripts:
+          afterResponse: ""
+          preRequest: ""
+    scripts:
+      afterResponse: ""
+      preRequest: ""
+  - name: Biblioteca
+    meta:
+      id: fld_f43957244be24e0b81bb379ba9f36198
+      created: 1743431218324
+      modified: 1743431218324
+      sortKey: -1743431218325
+      description: ""
+  - name: Gof
+    meta:
+      id: fld_7c8a9f29e6734018976cdfd503d7eed6
+      created: 1744630709013
+      modified: 1744630709013
+      sortKey: -1744630709013
+      description: ""
+    children:
+      - name: PedidosBuilder
+        meta:
+          id: fld_591604c067f6416d9f96184ab3f5554e
+          created: 1744633109721
+          modified: 1744633113572
+          sortKey: -1744630745325
+          description: ""
+  - name: Login
+    meta:
+      id: fld_28b296683380467e8eba37ac7c6fad49
+      created: 1749215447450
+      modified: 1749215447450
+      sortKey: -1749215447451
+      description: ""
+    children:
+      - name: local
+        meta:
+          id: fld_c51c3e4d42454fed8716f76f35bae97c
+          created: 1749229632159
+          modified: 1749229632159
+          sortKey: -1749229632159
+          description: ""
+      - name: remoto
+        meta:
+          id: fld_deb03c84334949f281c05d8422bff73b
+          created: 1749229644739
+          modified: 1749229644739
+          sortKey: -1749229644739
+          description: ""
+  - name: pessportal
+    meta:
+      id: fld_f88f36eed1864777a1e5ffbc36f1088a
+      created: 1749817008191
+      modified: 1749817008191
+      sortKey: -1749817008192
+      description: ""
+  - name: dummyjson.com
+    meta:
+      id: fld_de24bd1eb6fe45ca8888f9a5522e0071
+      created: 1753097349572
+      modified: 1753097349572
+      sortKey: -1753097349572
+      description: ""
+    children:
+      - url: https://dummyjson.com/docs/auth
+        name: API de autenticação
+        meta:
+          id: req_980e33ef74be49049d9e0c852c662a14
+          created: 1753097355316
+          modified: 1753097390495
+          isPrivate: false
+          description: ""
+          sortKey: -1753097355317
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.2.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://dummyjson.com/auth/login
+        name: Login
+        meta:
+          id: req_9a09bfc1f64d4e44bd924ce5f6d13d96
+          created: 1753097425345
+          modified: 1753100138088
+          isPrivate: false
+          description: ""
+          sortKey: -1751457183177
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"username": "emilys",
+            	"password": "emilyspass",
+            	"expiresInMins":"1"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.2.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://dummyjson.com/auth/me
+        name: VerificarToken
+        meta:
+          id: req_ad53c770d09b442fbc03f9ac31e0b722
+          created: 1753097745823
+          modified: 1753098613813
+          isPrivate: false
+          description: ""
+          sortKey: -1751457183077
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.2.0
+        authentication:
+          type: bearer
+          token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTMwOTg0ODYsImV4cCI6MTc1MzA5ODU0Nn0.UkHr1tSw5A8PTHhKPHnf5JKfz1SUU_ETBi89kuqRurM
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: placeholder
+    meta:
+      id: fld_9c212f0d946d45bdb7d5234c67d674d8
+      created: 1753103174841
+      modified: 1753103174841
+      sortKey: -1751457178882
+      description: ""
+    children:
+      - url: https://jsonplaceholder.typicode.com/posts
+        name: API Placeholder
+        meta:
+          id: req_2176f931c5e2405f827567e2625bf6e2
+          created: 1753103174844
+          modified: 1753103304397
+          isPrivate: false
+          description: ""
+          sortKey: -1753097355317
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.2.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://jsonplaceholder.typicode.com/posts
+        name: Listar Posts
+        meta:
+          id: req_ed5937fb92724478a30b60cd42cc729a
+          created: 1753103174851
+          modified: 1753103263378
+          isPrivate: false
+          description: ""
+          sortKey: -1751457183077
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.2.0
+        authentication:
+          type: bearer
+          token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTMwOTg0ODYsImV4cCI6MTc1MzA5ODU0Nn0.UkHr1tSw5A8PTHhKPHnf5JKfz1SUU_ETBi89kuqRurM
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: https://jsonplaceholder.typicode.com/posts/1/comments
+        name: Comentários do Post
+        meta:
+          id: req_b143c74f491d4e4f8f0134b118fed8e0
+          created: 1753103326993
+          modified: 1753103550571
+          isPrivate: false
+          description: ""
+          sortKey: -1750637097057
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.2.0
+        authentication:
+          type: bearer
+          token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTMwOTg0ODYsImV4cCI6MTc1MzA5ODU0Nn0.UkHr1tSw5A8PTHhKPHnf5JKfz1SUU_ETBi89kuqRurM
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1740747698883
+    modified: 1753101920322
+  cookies:
+    - key: accessToken
+      domain: dummyjson.com
+      path: /
+      hostOnly: true
+      creation: 2025-07-21T11:32:13.611Z
+      lastAccessed: 2025-07-21T12:45:20.322Z
+      id: 43193933-6bae-4d52-a5a4-80548abcbae4
+    - key: refreshToken
+      domain: dummyjson.com
+      path: /
+      hostOnly: true
+      creation: 2025-07-21T11:32:13.613Z
+      lastAccessed: 2025-07-21T12:45:20.322Z
+      id: 083509fe-0ff1-4bd3-b964-8e9e8691ccf1
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1740747698766
+    modified: 1740747698766
+    isPrivate: false
