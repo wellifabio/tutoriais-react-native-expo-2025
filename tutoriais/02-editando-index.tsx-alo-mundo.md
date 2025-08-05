@@ -1,9 +1,20 @@
 # Editando app/indexs.tsx - Olá Mundo e Criando um formulário básico
+Após criar um novo projeto Expo, abrir no VsCodee no terminal navegar até a pasta do projeto digite o comando `npm run reset-project` para garantir que o projeto esteja limpo e pronto para ser editado.
+- Limpe o Layout editando o arquivo `app/_layout.tsx` para remover o cabeçalho e o rodapé, deixando apenas o conteúdo principal.
+```ts
+import { Stack } from "expo-router";
 
-## Olá Mundo
-Navegue até o arquivo `app/index.tsx` e substitua o conteúdo por:
+export default function RootLayout() {
+  return <Stack
+    screenOptions={{
+      headerShown: false,
+    }}
+  />;
+}
+```
+- Vamos editar o arquivo `app/index.tsx` para exibir uma mensagem simples "Alô Mundo!" na tela inicial do aplicativo. Primeiro, certifique-se de que o Expo está instalado e funcionando corretamente. Você pode verificar isso com o comando:
 
-![Navegacao](./screenshots/print00.png) ![Navegacao](./screenshots/print01.png)
+![Navegacao](./screenshots/print01.png)
 
 ```tsx
 import React from 'react';
